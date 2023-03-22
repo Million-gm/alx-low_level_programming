@@ -14,7 +14,7 @@ for (m = 0; m < 10; m++)
 r = c * m;
 if (m == 0)
 _putchar('0' + r);
-if (r < 10 && j !=0)
+if (r < 10 && m !=0)
 {
 _putchar(',');
 _putchar(' ');
