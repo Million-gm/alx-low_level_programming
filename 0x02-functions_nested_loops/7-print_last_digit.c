@@ -1,5 +1,5 @@
 #include "main.h"
-#include<limits.h>
+#include <limits.h>
 /**
 *print_last_digit- prints last digit
 *@c: character ascii no to be checked
@@ -10,9 +10,9 @@ int print_last_digit(int c)
 {
 if (c < 0)
 c = c * -1;
-if (c==INT_MIN)
+if (c == INT_MIN)
 {
-c= -( c % 10);
+c = -(c % 10);
 _putchar(c + '0');
 return (c);
 }
