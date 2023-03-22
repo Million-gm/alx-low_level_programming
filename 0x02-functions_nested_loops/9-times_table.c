@@ -11,8 +11,7 @@ for(c =0; c < 10; c++)
 for(m =0; m < 10; m++)
 {
 r = c * m;
-_putchar('0' + r);
-_putchar(',');
+printf("%d, "r);
 }
 _putchar('\n');
 }
