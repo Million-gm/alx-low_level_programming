@@ -12,10 +12,23 @@ for (c = 0; c < 10; c++)
 for (m = 0; m < 10; m++)
 {
 r = c * m;
-printf("%d", r);
-if (m != 9)
-printf(",\t");
+if (j == 0)
+_putchar('0' + r);
+if (r < 10 && j !=0)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar('0' + r);
 }
-printf("\n");
+else
+{
+ _putchar(',');
+_putchar(' ');
+_putchar('0' + (r / 10)); 
+_putchar('0' + (r % 10)); 
+}
+}
+_putchar('\n');
 }
 }
