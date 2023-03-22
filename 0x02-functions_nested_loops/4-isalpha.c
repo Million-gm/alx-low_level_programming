@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_islower- checks if character is lowercase
+*_isalpha- checks if character is letter
 *@c: character ascii num to be checked
 *Return: 0 if not letter, 1 if letter
 */
