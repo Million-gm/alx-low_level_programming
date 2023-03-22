@@ -1,5 +1,1 @@
-void _putchar(char c);
-void _putchar(char c)
-{
-printf("%c",c);
-}
+int _putchar(char c);
