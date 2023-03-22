@@ -12,7 +12,7 @@ for (c = 0; c < 10; c++)
 for (m = 0; m < 10; m++)
 {
 r = c * m;
-if (j == 0)
+if (m == 0)
 _putchar('0' + r);
 if (r < 10 && j !=0)
 {
