@@ -7,7 +7,6 @@
 /* more headers goes there */
 /**
  * main - Short description, single line
- * @parameterx: void
 (* a blank line
  * Description: main part function)?
 (* section header: all things in world)*
