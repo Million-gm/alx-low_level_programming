@@ -1,5 +1,5 @@
-int _putchar(int c);
-int _putchar(int c)
+void _putchar(char c);
+void _putchar(char c)
 {
-printf("%d\n",c);
+printf("%c",c);
 }
