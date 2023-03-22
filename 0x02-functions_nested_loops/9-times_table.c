@@ -14,7 +14,7 @@ for (m = 0; m < 10; m++)
 r = c * m;
 printf("%d", r);
 if (m != 9)
-printf(",  ");
+printf(",\t");
 }
 printf("\n");
 }
