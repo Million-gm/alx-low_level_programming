@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *print_sign(int n)- checks if characters is sign
-*@c: character ascii no to be checked
+*@n: character ascii no to be checked
 *Return: 0 if 0, 1 if greater than zero, -1 if less than zero
 */
 
