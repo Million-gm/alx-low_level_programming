@@ -1,8 +1,9 @@
+#include "main.h"
 /**
  * times_table - prints time table
  *
  */
-void times_table(void);
+void times_table(void)
 {
 int c,m,r;
 for(c =0; c < 10; c++)
