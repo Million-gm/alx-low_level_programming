@@ -32,10 +32,13 @@ _putchar('0' + (r % 10));
 }
 else if(r >= 100)
 {
-int mid;
-mid %= 10;
-mid /= 10;
-mid %= 10;
+int digit=0;
+int num=r;
+while(num>0)
+{
+digit = num%10;
+num/=10;
+}
 _putchar(',');
 _putchar(' ');
 _putchar('0' + (r / 10));
