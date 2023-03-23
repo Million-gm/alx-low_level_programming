@@ -11,9 +11,9 @@ if (n != 0)
 {
 int i;
 int j;
-for (j = 0; j <= n; j++)
+for (j = 1; j <= n; j++)
 {
-for (i = 0; i < j; i++)
+for (i = 1; i <= j; i++)
 {
 _putchar(' '); 
 }  
