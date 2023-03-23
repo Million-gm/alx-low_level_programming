@@ -41,8 +41,8 @@ num/=10;
 }
 _putchar(',');
 _putchar(' ');
-_putchar('0' + (r / 10));
-_putchar('0' + mid);
+_putchar('0' + (r / 100));
+_putchar('0' + num);
 _putchar('0' + (r % 10));
 }
 }
