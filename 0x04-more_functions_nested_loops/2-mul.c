@@ -1,12 +1,11 @@
 #include "main.h"
 /**
-*mul- cmultiplies two digits
+*mul- multiplies two digits
 *@a: character code to be checked
 *@b: character code to be checked
-*Return: 1 if digit, 0 if no digit
+*Return: multiplication of a and b
 */
 int mul(int a, int b)
 {
-int mul  = a * b;
-return mul;
+return (a * b);
 }
