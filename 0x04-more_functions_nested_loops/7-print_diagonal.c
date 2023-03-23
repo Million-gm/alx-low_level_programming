@@ -17,7 +17,7 @@ int i;
 int j;
 for (j = 1; j <= n; j++)
 {
-for (i = 1; i <= j; i++)
+for (i = 1; i < j; i++)
 {
 _putchar(' ');
 }
