@@ -19,8 +19,8 @@ for (j = 1; j <= n; j++)
 {
 for (i = 1; i <= j; i++)
 {
-_putchar(' '); 
-}  
+_putchar(' ');
+}
 _putchar('\\');
 _putchar('\n');
 }
