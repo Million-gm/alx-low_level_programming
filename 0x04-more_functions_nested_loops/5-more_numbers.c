@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-*more_numbers- prints 0 to 9
+*more_numbers- prints 0 to 14 repeatedly
 *Return: void
 */
 void more_numbers(void)
 {
 int j;
-while (j < = 10)
+while (j <= 10)
 {
 int i;
 for (i = 0; i <= 14; i++)
