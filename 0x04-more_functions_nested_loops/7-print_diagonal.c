@@ -11,14 +11,14 @@ if (n != 0)
 {
 int i;
 int j;
-for (j = n; j > 0; j--)
+for (j = 0; j >= n; j++)
 {
-for (i = 0; i < n; i++)
+for (i = 0; i < j; i++)
 {
 _putchar(' '); 
 }  
 _putchar('\\');
-if (j != 1)
+if (j != n)
 _putchar('\n');
 }
 }
