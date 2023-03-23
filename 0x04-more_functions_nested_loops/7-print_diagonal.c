@@ -18,9 +18,9 @@ for (i = 0; i < n; i++)
 _putchar(' '); 
 }  
 _putchar('\\');
-}
 if (j != 1)
 _putchar('\n');
+}
 }
 _putchar('\n');
 }
