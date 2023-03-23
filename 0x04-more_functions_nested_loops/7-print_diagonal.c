@@ -19,6 +19,8 @@ _putchar(' ');
 }  
 _putchar('\\');
 }
+if (j != 1)
 _putchar('\n');
 }
+_putchar('\n');
 }
