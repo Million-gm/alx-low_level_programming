@@ -34,12 +34,7 @@ _putchar('0' + (r % 10));
 }
 else if (r >= 100)
 {
-int num = r;
-while (num  > 0)
-{
-num = num % 10;
-num /= 100;
-}
+int num = (r / 10) % 10;
 _putchar(',');
 _putchar(' ');
 _putchar('0' + (r / 100));
