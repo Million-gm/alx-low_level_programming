@@ -6,8 +6,8 @@
  */
 void print_times_table(int n)
 {
-if (n > 99)
-return null;
+if (n < 100)
+{
 int c, m, r;
 for (c = 0; c <= n; c++)
 {
@@ -48,5 +48,6 @@ _putchar('0' + (r % 10));
 }
 }
 _putchar('\n');
+}
 }
 }
