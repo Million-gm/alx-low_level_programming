@@ -14,7 +14,7 @@ for (i = 0; i <= 14; i++)
 {
 printf("%d", i);
 }
-printf('\n');
+printf("\n");
 j++;
 }
 }
