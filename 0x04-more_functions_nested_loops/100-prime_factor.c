@@ -1,11 +1,12 @@
 #include<stdio.h>
+#include<math.h>
 /**
 *main- prime factor
 *Return: 0
 */
 int main(void)
 {
-int i, k, c;
+long int i, k, c;
 k = 0;
 i = 612852475143;
 while ((i % 2) == 0)
@@ -22,6 +23,6 @@ k = i;
 i = i / c;
 }
 }
-printf("%d", k);
+printf("%ld", k);
 return (0);
 }
