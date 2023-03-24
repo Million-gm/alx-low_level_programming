@@ -39,6 +39,7 @@ while (r > 0)
 _putchar(' ');
 r--;
 }
+}
 /**
 *printhash - prints 0 to 9
 *@r: number of #
