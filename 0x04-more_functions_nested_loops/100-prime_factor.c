@@ -23,7 +23,7 @@ while ((i % c) == 0)
 if (k < i)
 k = i;
 printf("%ld", k);
-i =i / c;
+i = i / c;
 }
 }
 printf("%ld", k);
