@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-long long i, k, c;
+int i, k, c;
 k = 0;
 i = 612852475143;
 while ((i % 2) == 0)
@@ -22,6 +22,6 @@ k = i;
 i = i / c;
 }
 }
-printf("%llu", k);
+printf("%d", k);
 return (0);
 }
