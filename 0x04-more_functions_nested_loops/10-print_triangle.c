@@ -15,7 +15,7 @@ _putchar('\n');
 else
 {
 int i, j;
-for (i = (size - 1); i => 0; i--)
+for (i = (size - 1); i >= 0; i--)
 {
 for (j = 1; j <= size; j++)
 {
