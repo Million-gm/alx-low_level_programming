@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-long long i, k, c;
+long double i, k, c;
 k = 0;
 printf("%ld", k);
 i = 612852475143;
@@ -25,6 +25,6 @@ printf("%ld", k);
 i = i / c;
 }
 }
-printf("%lld", k);
+printf("%Lf", k);
 return (0);
 }
