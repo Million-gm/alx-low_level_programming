@@ -3,7 +3,7 @@
 *main - prints 0 to 9
 *Return: 0 always
 */
-int main()
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
@@ -26,5 +26,5 @@ printf("%d ", i);
 }
 }
 printf("\n");
-return 0;
+return (0);
 }
