@@ -15,12 +15,13 @@ _putchar('\n');
 else
 {
 int i, j;
-for (i = size; i > 0; i--)
+for (i = (size - 1); i => 0; i--)
 {
 for (j = 1; j <= size; j++)
 {
-printsp((size - j));
-printhash(j);
+printsp(i);
+printhash(size - i);
+break;
 }
   
 _putchar('\n');
