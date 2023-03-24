@@ -23,7 +23,6 @@ printsp(i);
 printhash(size - i);
 break;
 }
-  
 _putchar('\n');
 }
 }
@@ -45,7 +44,7 @@ r--;
 *printhash - prints 0 to 9
 *@r: number of #
 *Return: void
-*/  
+*/
 void printhash(int r)
 {
 while (r > 0)
