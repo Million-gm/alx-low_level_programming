@@ -23,6 +23,6 @@ k = i;
 i /= c;
 }
 }
-printf("%ld", k)
+printf("%ld", k);
 return (0);
 }
