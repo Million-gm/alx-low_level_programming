@@ -1,4 +1,3 @@
-#include <math.h>
 #include<stdio.h>
 /**
 *main- prime factor
@@ -17,7 +16,7 @@ i = i / 2;
 k = 2;
 }
 printf("%ld", k);
-for (c = 0; c <= sqrt(i); c += 2)
+for (c = 0; c <= i; c += 2)
 {
 while ((i % c) == 0)
 {
