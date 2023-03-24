@@ -5,8 +5,7 @@
 */
 int main(void)
 {
-long i, k;
-int c;
+long long i, k, c;
 k = 0;
 printf("%ld", k);
 i = 612852475143;
@@ -16,7 +15,7 @@ i = i / 2;
 k = 2;
 }
 printf("%ld", k);
-for (c = 0; c <= i; c += 2)
+for (c = 0; c <= sqrt(i); c += 2)
 {
 while ((i % c) == 0)
 {
@@ -26,6 +25,6 @@ printf("%ld", k);
 i = i / c;
 }
 }
-printf("%ld", k);
+printf("%lld", k);
 return (0);
 }
