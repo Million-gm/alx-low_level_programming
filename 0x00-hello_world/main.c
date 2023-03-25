@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+    printf("all ok man");
     return (0);
 }
