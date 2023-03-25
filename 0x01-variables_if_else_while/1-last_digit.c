@@ -3,18 +3,21 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+*main- main function
+*Return: 0
+*/
 int main(void)
 {
-	int n, i;
+int n, i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */
 i = n % 10;
-printf("Last digit of %d  ", n);
+printf("Last digit of %d  is ", n);
 printf("%d and ", i);
-if (i < 6 && i !=0)
+if (i < 6 && i != 0)
 {
 printf("is less than 6 and not 0\n");
 }
