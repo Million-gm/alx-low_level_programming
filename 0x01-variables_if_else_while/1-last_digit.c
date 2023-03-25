@@ -15,7 +15,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 i = n % 10;
-printf("Last digit of %d  is ", n);
+printf("Last digit of %d is ", n);
 printf("%d and ", i);
 if (i < 6 && i != 0)
 {
