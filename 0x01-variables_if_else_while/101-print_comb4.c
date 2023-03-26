@@ -18,9 +18,11 @@ for (j = i + 1; j <= 57; j++)
 putchar(n);
 putchar(i);
 putchar(j);
+if (n < 55)
+{
 putchar(',');
 putchar(' ');
-
+}
 }
 }
 }
