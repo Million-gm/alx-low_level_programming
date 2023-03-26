@@ -15,7 +15,11 @@ for (i = 48; i <= 57; i++)
 {
 for (k = 48; k <= 56; k++)
 {
-for (j = i + 1; j <= 57; j++)
+if (i > 48)
+j = i + 1;
+else
+j = i;
+while (j <= 57)
 {
 putchar(n);
 putchar(i);
@@ -27,6 +31,7 @@ if (n < 57)
 putchar(',');
 putchar(' ');
 }
+j++;
 }
 }
 }
