@@ -22,7 +22,7 @@ putchar(i);
 putchar(' ');
 putchar(k);
 putchar(j);
-if (n < 55)
+if (n < 57)
 {
 putchar(',');
 putchar(' ');
