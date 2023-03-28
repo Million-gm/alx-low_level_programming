@@ -6,13 +6,14 @@
 */
 void puts_half(char *str)
 {
-int i = 0;
+int i = 1;
 int c =0;
 while (*(str + i) != '\0')
 {
 i++;
 }
 c = i / 2;
+c--;
 while (*(str + c) != '\0')
 {
 printf("%d", *(str + c));
