@@ -28,5 +28,5 @@ i++;
 }
 if (p < 0)
 m =m * -1;
-return (h);
+return (m);
 }
