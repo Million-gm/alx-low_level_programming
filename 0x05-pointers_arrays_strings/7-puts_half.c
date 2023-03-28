@@ -16,7 +16,7 @@ c = i / 2;
 c--;
 while (*(str + c) != '\0')
 {
-printf("%d", *(str + c));
+printf("%c", *(str + c));
 c++;
 }
 printf("\n");
