@@ -13,6 +13,6 @@ do
 {
 dest[i] = src[i];
 i++;
-}while (*(src + i) != '\0');
+}while (src[i] != '\0');
 return (dest);
 }
