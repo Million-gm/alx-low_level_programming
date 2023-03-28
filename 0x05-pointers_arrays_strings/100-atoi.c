@@ -27,6 +27,6 @@ break;
 i++;
 }
 if (p < 0)
-m =m * -1;
+m = m * -1;
 return (m);
 }
