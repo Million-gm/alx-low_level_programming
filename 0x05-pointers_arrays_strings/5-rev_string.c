@@ -3,7 +3,7 @@
 *rev_string- reverse the string
 *@s: the string
 */
-void rev_string(char *s
+void rev_string(char *s)
 {
 int i = 0;
 while (*(s + i) != '\0')
