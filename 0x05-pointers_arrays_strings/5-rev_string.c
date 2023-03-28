@@ -13,8 +13,7 @@ i++;
 }
 i--;
 
-j = i + 1;
-char c[j];
+char c[1000];
 while (i >= 0)
 {
 c[j] = *(s + i);
