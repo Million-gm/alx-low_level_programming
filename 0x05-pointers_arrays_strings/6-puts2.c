@@ -1,5 +1,5 @@
 #include "main.h"
-#includ <stdio.h>
+#include <stdio.h>
 /**
 *puts2- reverse the string
 *@str: the string
