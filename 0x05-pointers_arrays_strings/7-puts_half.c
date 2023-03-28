@@ -13,7 +13,6 @@ while (*(str + i) != '\0')
 i++;
 }
 c = i / 2;
-c--;
 while (*(str + c) != '\0')
 {
 printf("%c", *(str + c));
