@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 *reverse_array- reverses array
 *@a: the array
@@ -23,10 +22,5 @@ while (i >= 0)
 *(a + i) = *(a + k);
 k++;
 i--;
-}
-while (k >= n + 1)
-{
-*(a + k) = '\0';
-k--;
 }
 }
