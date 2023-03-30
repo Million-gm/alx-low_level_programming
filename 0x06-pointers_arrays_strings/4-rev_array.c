@@ -7,13 +7,15 @@
 void reverse_array(int *a, int n)
 {
 int i = 0;
-int k = n;
+int k;
+k = n;
 while (*(a + i) != '\0')
 {
 *(a + k) = *(a + i);
 k++;
 i++;
 }
+k = n;
 while (i >= 0)
 {
 *(a + i) = *(a + k);
