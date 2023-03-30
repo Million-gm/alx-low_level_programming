@@ -9,7 +9,7 @@ void reverse_array(int *a, int n)
 {
 int i = 0;
 int k;
-k = n;
+k = n + 1;
 printf("before copiying \t");
 printf("k=%d\t", k);
 printf("i=%d\n", i);
@@ -20,7 +20,8 @@ printf("copiying \n");
 k++;
 i++;
 }
-k = n;
+i--;
+k = n + 1;
 printf("after copiying \t");
 printf("k=%d\t", k);
 printf("i=%d\n", i);
@@ -30,6 +31,9 @@ while (i >= 0)
 k++;
 i--;
 }
+  printf("after copiying last \t");
+printf("k=%d\t", k);
+printf("i=%d\n", i);
 /*while (k >= n)
 {
 *(a + k) = '\0';
