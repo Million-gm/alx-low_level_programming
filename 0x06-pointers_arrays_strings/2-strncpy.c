@@ -10,6 +10,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 int i = 0;
 int j = 0;
+int k = n;
 while (*(src + n) == '\0')
 {
 if (n <= 0)
@@ -26,7 +27,7 @@ while (j < n && *(src + j))
 *(dest + j) = *(src + j);
 j++;
 }
-for (i = j; i <= n; i++)
+for (i = j; i < k; i++)
 *(dest + i) = '\0';
 
 return (dest);
