@@ -20,7 +20,7 @@ while (*(dest + i) != '\0')
 {
 i++;
 }
-while (j <= n)
+while (j < n)
 {
 *(dest + i) = *(src + j);
 j++;
