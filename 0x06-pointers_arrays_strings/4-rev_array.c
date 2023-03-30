@@ -2,14 +2,13 @@
 /**
 *reverse_array- reverses array
 *@a: the array
-*@src: the source string for concatination
 *@n: array size
 */
 void reverse_array(int *a, int n)
 {
 int i = 0;
 int k = n;
-while (*(a + i) != 0)
+while (*(a + i) != '\0')
 {
 *(a + k) = *(a + i);
 k++;
