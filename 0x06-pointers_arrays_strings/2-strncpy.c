@@ -17,11 +17,6 @@ if (n <= 0)
 break;
 n--;
 }
-/*while (*(dest + i) != '\0')
-*{
-*i++;
-*}
-*/
 while (j < n && *(src + j))
 {
 *(dest + j) = *(src + j);
