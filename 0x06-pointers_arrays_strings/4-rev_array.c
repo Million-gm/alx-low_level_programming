@@ -15,8 +15,11 @@ printf("k=%d\t", k);
 printf("i=%d\n", i);
 while (i <= n)
 {
-printf("copiying \n");
 *(a + k) = *(a + i);
+printf("copiying k=%d\t", k);
+printf(" i=%d\t", i);
+printf(" k=%d\t", *(a + k));
+printf(" i=%d\n", *(a + i));
 k++;
 i++;
 }
