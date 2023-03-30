@@ -27,7 +27,7 @@ j++;
 i++;
 }
 for (i = j; i < n; i++)
-		dest[i] = '\0';
+dest[i] = '\0';
 
 return (dest);
 }
