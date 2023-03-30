@@ -10,7 +10,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 int i = 0;
 int j = 0;
-while (*(dest + n) == '\0')
+while (*(src + n) == '\0')
 {
 if (n <= 0)
 break;
@@ -20,9 +20,9 @@ while (*(dest + i) != '\0')
 {
 i++;
 }
-while (*(src + j) != '\0')
+while (j <= n)
 {
-*(dest + i + n) = *(src + j);
+*(dest + i) = *(src + j);
 j++;
 i++;
 }
