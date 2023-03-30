@@ -20,7 +20,6 @@ printf("copiying \n");
 k++;
 i++;
 }
-i--;
 k = n + 1;
 printf("after copiying \t");
 printf("k=%d\t", k);
