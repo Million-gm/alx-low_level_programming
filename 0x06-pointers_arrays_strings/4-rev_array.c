@@ -10,40 +10,23 @@ void reverse_array(int *a, int n)
 int i = 0;
 int k;
 k = n + 1;
-printf("before copiying \t");
-printf("k=%d\t", k);
-printf("i=%d\n", i);
 while (i < n)
 {
 *(a + k) = *(a + i);
-printf("copiying k=%d\t", k);
-printf(" i=%d\t", i);
-printf(" k=%d\t", *(a + k));
-printf(" i=%d\n", *(a + i));
 k++;
 i++;
 }
 i--;
 k = n + 1;
-printf("after copiying \t");
-printf("k=%d\t", k);
-printf("i=%d\n", i);
 while (i >= 0)
 {
 *(a + i) = *(a + k);
-printf("copiying k=%d\t", k);
-printf(" i=%d\t", i);
-printf(" k=%d\t", *(a + k));
-printf(" i=%d\n", *(a + i));
 k++;
 i--;
 }
-  printf("after copiying last \t");
-printf("k=%d\t", k);
-printf("i=%d\n", i);
-/*while (k >= n)
+while (k >= n + 1)
 {
 *(a + k) = '\0';
 k--;
-}*/
+}
 }
