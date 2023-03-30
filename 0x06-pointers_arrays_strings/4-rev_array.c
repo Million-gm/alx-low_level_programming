@@ -24,8 +24,8 @@ i--;
 }
 while (k >= n)
 {
-/*(a + k) = '\0';*/
+(a + k) = '\0';
 k--;
 }
-return (dest);
+return (a);
 }
