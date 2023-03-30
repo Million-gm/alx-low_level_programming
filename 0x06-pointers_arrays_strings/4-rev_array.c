@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *reverse_array- reverses array
 *@a: the array
@@ -23,4 +24,5 @@ while (i >= 0)
 k++;
 i--;
 }
+printf("the counters are \ti=%d\tk=%d\n", i, k);
 }
