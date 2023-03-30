@@ -2,7 +2,7 @@
 /**
 *leet- replaces charachters with numbers
 *@c: the letters
-*Return: uppercase of string c
+*Return: numbered string c
 */
 char *leet(char *c)
 {
@@ -19,9 +19,9 @@ if (*(c + i) == s[m])
 {
 *(c + i) = sn[m];
 }
+m++;
 }
 i++;
 }
-
 return (c);
 }
