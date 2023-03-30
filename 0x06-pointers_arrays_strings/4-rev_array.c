@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *reverse_array- reverses array
 *@a: the array
@@ -9,6 +10,9 @@ void reverse_array(int *a, int n)
 int i = 0;
 int k;
 k = n;
+printf("before copiying \t");
+printf("k=%d\t", k);
+printf("i=%d\n", i);
 while (*(a + i) != '\0')
 {
 *(a + k) = *(a + i);
@@ -17,6 +21,9 @@ i++;
 }
 i--;
 k = n;
+printf("after copiying \t");
+printf("k=%d\t", k);
+printf("i=%d\n", i);
 while (i >= 0)
 {
 *(a + i) = *(a + k);
