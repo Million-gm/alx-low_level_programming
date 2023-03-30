@@ -21,8 +21,9 @@ k = n + 1;
 while (i >= 0)
 {
 *(a + i) = *(a + k);
+printf("the counters are \ti=%d\tk=%d\n", i, k);
 k++;
 i--;
 }
-printf("the counters are \ti=%d\tk=%d\n", i, k);
+printf("the counters at last are \ti=%d\tk=%d\n", i, k);
 }
