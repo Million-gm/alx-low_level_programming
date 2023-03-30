@@ -30,6 +30,10 @@ printf("i=%d\n", i);
 while (i >= 0)
 {
 *(a + i) = *(a + k);
+printf("copiying k=%d\t", k);
+printf(" i=%d\t", i);
+printf(" k=%d\t", *(a + k));
+printf(" i=%d\n", *(a + i));
 k++;
 i--;
 }
