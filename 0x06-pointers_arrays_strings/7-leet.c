@@ -13,11 +13,11 @@ char sn[] = {"4307143071"};
 while (*(c + i) != '\0')
 {
 m = 0;
-while (m < 10)
+while (m <= 9)
 {
 if (*(c + i) == s[m])
 {
-*(c + i) = sn[m]
+*(c + i) = sn[m];
 }
 }
 i++;
