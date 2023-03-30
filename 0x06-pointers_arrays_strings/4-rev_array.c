@@ -13,7 +13,7 @@ k = n + 1;
 printf("before copiying \t");
 printf("k=%d\t", k);
 printf("i=%d\n", i);
-while (i <= n)
+while (i < n)
 {
 *(a + k) = *(a + i);
 printf("copiying k=%d\t", k);
