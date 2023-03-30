@@ -12,6 +12,8 @@ int i = 0;
 int j = 0;
 while (*(dest + n) == '\0')
 {
+if (n <= 0)
+break;
 n--;
 }
 while (*(dest + i) != '\0')
